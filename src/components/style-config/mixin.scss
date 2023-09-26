@@ -1,0 +1,24 @@
+@mixin typography($size: 18px, $weight: 400, $lineheight: 24px) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $lineheight;
+}
+
+@mixin large-screen {
+    @media only screen and (min-width: 1441px) {
+        @content;
+    }
+}
+
+@mixin medium-screen {
+    @media only screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin small-screen {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
