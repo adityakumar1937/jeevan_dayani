@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <ImageSlider data={slides} /> */}
+      <ImageSlider data={slides} />
     </>
   );
 }
