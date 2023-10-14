@@ -11,6 +11,67 @@
     height: 100%;
     object-fit: cover;
   }
+  .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+    .fadeOutLeft {
+      -webkit-animation-name: fadeOutLeft;
+      animation-name: fadeOutLeft;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes fadeOutLeft {
+      0% {
+      opacity: 1;
+      }
+      100% {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      }
+      }
+      @keyframes fadeOutLeft {
+      0% {
+      opacity: 1;
+      }
+      100% {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      }
+      }
   .slide-hidden {
     display: none;
   }
@@ -23,9 +84,11 @@
   }
   .arrow-left {
     left: 1rem;
+    z-index: 1;
   }
   .arrow-right {
     right: 1rem;
+    z-index: 1;
   }
   .indicators {
     display: flex;

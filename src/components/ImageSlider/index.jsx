@@ -22,7 +22,7 @@ const ImageSlider = ({ data }) => {
     <div className="slider-container">
       <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide} />
       {data.map((item, index) => {
-        const imageClass = index === slide ? "slide" : "slide slide-hidden";
+        const imageClass = index === slide ? "slide fadeInRight" : "slide slide-hidden fadeOutLeft";
         return (
           <img
             src={item.src}
