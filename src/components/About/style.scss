@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns in the first row */
+    gap: 10px; /* Adjust the gap between grid items as needed */
+}
+
+.grid-item {
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Specify the number of columns for the second row */
+.second-row {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns in the second row */
+}

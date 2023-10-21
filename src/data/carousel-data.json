@@ -1,16 +1,20 @@
 {
 "slides": [
     {
-        "src": "https://images.pexels.com/photos/1287089/pexels-photo-1287089.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "src": "https://www.akshayapatra.org/wp-content/uploads/2023/07/banner-2-web.jpg",
         "alt": "Image 1"
     },
     {
-        "src": "https://images.pexels.com/photos/24821/pexels-photo-24821.jpg?auto=compress&cs=tinysrgb&w=400",
+        "src": "https://www.akshayapatra.org/wp-content/uploads/2023/07/Homeless-Web-Banner-1920x750-2.jpg",
         "alt": "Image 2"
     },
     {
-        "src": "https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "src": "https://www.akshayapatra.org/wp-content/uploads/2023/09/banner-4-web.jpg",
         "alt": "Image 3"
+    },
+    {
+        "src": "https://www.akshayapatra.org/wp-content/uploads/2023/07/banner-1-web.jpg",
+        "alt": "Image 4"
     }
 ]
 }

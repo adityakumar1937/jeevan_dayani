@@ -1,0 +1,137 @@
+@import "../style-config/variable.scss";
+@import "../style-config/mixin.scss";
+
+.tax-exemption {
+  padding: 0.5rem;
+  text-align: center;
+  padding: 1% 8%;
+  background-color: $white;
+  h4 {
+    @include typography(20px, 600, 1);
+    color: $purple;
+    margin-bottom: 0.5rem;
+  }
+  h5 {
+    @include typography(14px, 600, 1);
+    color: $purple;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2% 8%;
+  background-color: $purple;
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    img {
+      width: 80px;
+      height: auto;
+      overflow: hidden;
+      margin: 1rem;
+    }
+    p {
+      text-wrap: wrap;
+      @include typography(15px, 400, 1.2);
+      margin: 1rem;
+      color: $white;
+    }
+    .social-icon {
+      display: flex;
+      justify-content: start;
+      padding: 0;
+      margin: 1rem;
+      background-color: transparent;
+      .social-link {
+        .icon {
+          cursor: pointer;
+        }
+        &:hover {
+          transform: scale(1.1);
+          transition: all ease-in 0.2s;
+        }
+      }
+    }
+  }
+  .quick-links {
+    margin: 1rem;
+    h4 {
+      @include typography(18px, 600, 1);
+      margin-bottom: 1rem;
+      color: $yellow;
+    }
+    ul {
+      list-style: none;
+      li {
+        padding: 0.3rem;
+        a {
+          text-decoration: none;
+          color: $black;
+          @include typography(14px, 400, 1.2);
+          color: $white;
+        }
+      }
+    }
+  }
+  .contact-address {
+    margin: 1rem;
+    h4 {
+      @include typography(18px, 600, 1);
+      margin-bottom: 1rem;
+      color: $yellow;
+    }
+    ul {
+      list-style: none;
+      li {
+        padding: 0.3rem;
+        text-decoration: none;
+        color: $black;
+        @include typography(14px, 400, 1.2);
+        color: $white;
+      }
+    }
+
+    .quick-links {
+      margin: 1rem;
+      h4 {
+        @include typography(18px, 600, 1);
+        margin-bottom: 1rem;
+        color: $yellow;
+      }
+      ul {
+        list-style: none;
+        li {
+          padding: 0.3rem;
+          text-decoration: none;
+          color: $black;
+          @include typography(14px, 400, 1.2);
+        }
+      }
+    }
+  }
+  .contact-details {
+    margin: 1rem;
+    h4 {
+      @include typography(18px, 600, 1);
+      margin-bottom: 1rem;
+      color: $yellow;
+    }
+    ul {
+      list-style: none;
+      li {
+        padding: 0.5rem;
+        a {
+          text-decoration: none;
+          color: $black;
+          @include typography(16px, 500, 1);
+          color: $white;
+        }
+      }
+    }
+  }
+}

@@ -9,7 +9,7 @@ import { MdEmail, MdPhone } from "react-icons/md";
 import "../../components/Navbar/style.scss";
 import CallToAction from "../shared/CTA";
 import { FaRupeeSign, FaUserAlt } from "react-icons/fa";
-import Logo from "/Images/logo.png";
+import Logo from "../Assets/Images/logo.png";
 
 const Navbar = () => {
   return (
@@ -17,16 +17,16 @@ const Navbar = () => {
       <div className="social-icon">
         <ul>
           <li className="social-link">
-            <AiOutlineInstagram style={{ color: "#F60A5F" }} size="24px" />
+            <AiOutlineInstagram style={{ color: "#fff" }} size="24px" />
           </li>
           <li className="social-link">
-            <AiFillFacebook style={{ color: "#1877F2" }} size="24px" />
+            <AiFillFacebook style={{ color: "#fff" }} size="24px" />
           </li>
           <li className="social-link">
-            <AiFillLinkedin style={{ color: "#0A66C2" }} size="24px" />
+            <AiFillLinkedin style={{ color: "#fff" }} size="24px" />
           </li>
           <li className="social-link">
-            <AiFillYoutube style={{ color: "#FF0000" }} size="24px" />
+            <AiFillYoutube style={{ color: "#fff" }} size="24px" />
           </li>
           <li className="icon-list-item">
             <MdEmail className="icon" style={{ color: "grey" }} size="24px" />
